@@ -1,4 +1,4 @@
-const allowedCors = [ 'https://pindie-games.nomorepartiesco.ru' ];
+const allowedCors = [ 'https://pindie-games.nomorepartiesco.ru', 'http://pindie-games.nomorepartiesco.ru', 'http://localhost:3000'];
 
 function cors(req, res, next) {
   const { origin } = req.headers;
